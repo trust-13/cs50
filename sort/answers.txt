@@ -1,0 +1,53 @@
+--sort1 uses: bubble sort
+How do you know?:
+faster at sorted txt.files than selection sort (best omega notation)
+
+"real" time in sec:
+ ra5 .139
+ra10 .337
+ra50 8.191
+ re5 .096
+re10 .275
+re50 6.086
+  s5 .040   should be faster than merge sort (omega notation of n?)
+ s10 .068   "
+ s50 .412   "
+
+
+
+--sort2 uses: merge sort
+How do you know?:
+fastest at random order (best big-O notation)
+simular times over all txt.files (theta notation)
+
+"real" time in sec:
+ ra5 .036
+ra10 .076
+ra50 .382
+ re5 .053
+re10 .089
+re50 .386
+  s5 .035
+ s10 .065
+ s50 .350
+
+
+
+--sort3 uses: selection sort
+How do you know?:
+takes long for sorted50000.txt so bad omega notation (n-squard)
+
+"real" time in sec:
+ ra5 .058
+ra10 .189
+ra50 3.666
+ re5 .051
+re10 .218
+re50 3.432
+  s5 .075
+ s10 .173
+ s50 3.23
+
+
+
+--note: my "real" exc times vari each time by at least .01 sec!
